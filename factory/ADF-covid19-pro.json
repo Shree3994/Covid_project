@@ -1,0 +1,9 @@
+{
+	"name": "ADF-covid19-pro",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "61148ab2-5683-4336-aac2-378b33d03499",
+		"tenantId": "70edf028-fbeb-4510-a4aa-196f288766f9"
+	}
+}
