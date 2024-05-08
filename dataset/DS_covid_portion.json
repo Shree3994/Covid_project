@@ -1,0 +1,23 @@
+{
+	"name": "DS_covid_portion",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_blob_covid_portion_sa",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "019 population-by-age.tsv",
+				"container": "population"
+			},
+			"columnDelimiter": "\t",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
